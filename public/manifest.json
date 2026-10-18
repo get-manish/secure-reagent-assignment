@@ -1,0 +1,14 @@
+{
+  "name": "Business Performance & Revenue Analytics",
+  "short_name": "BizAnalytics",
+  "description": "Track leads, quotations, deals, orders and revenue.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f4f6fb",
+  "theme_color": "#2563eb",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

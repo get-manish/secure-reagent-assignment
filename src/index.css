@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: Inter, ui-sans-serif, system-ui, "Segoe UI", Roboto, sans-serif;
+  --color-brand: #2563eb;
+  --color-ink: #0f172a;
+}
+
+body {
+  background: #f8fafc;
+  color: #1e293b;
+  font-size: 13px;
+  -webkit-font-smoothing: antialiased;
+}
+
+:focus-visible {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+}
+
+.card-hover {
+  transition:
+    transform 0.15s,
+    box-shadow 0.15s;
+}
+.card-hover:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05);
+}
+
+/* Comfortable table cells across the dashboard */
+th,
+td {
+  padding-inline: 0.625rem;
+}
+th:first-child,
+td:first-child {
+  padding-left: 0;
+}
+th:last-child,
+td:last-child {
+  padding-right: 0;
+}
