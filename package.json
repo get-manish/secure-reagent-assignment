@@ -17,6 +17,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/node": "^26.6.5",
     "lucide-react": "^1.59.0",
     "motion": "^14.3.0",
     "react": "^19.3.1",
